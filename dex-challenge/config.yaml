@@ -1,0 +1,3 @@
+testMode: assertion
+corpusDir: corpus
+cryticArgs: ['--solc-remaps', 'openzeppelin-contracts=node_modules/openzeppelin-contracts']
