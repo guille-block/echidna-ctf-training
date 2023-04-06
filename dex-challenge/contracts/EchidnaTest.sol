@@ -43,6 +43,6 @@ contract EchidnaTest is Setup {
         uint256 afterThisBalanceToken1 = token1.balanceOf(address(this));
         uint256 afterThisBalanceToken2 = token2.balanceOf(address(this));
         emit FailSwap(preThisBalanceToken1, afterThisBalanceToken1, preThisBalanceToken2, afterThisBalanceToken2);
-        assert(afterThisBalanceToken1 != 110 ether);
+        assert(preThisBalanceToken1 == afterThisBalanceToken1 && preThisBalanceToken2 == afterThisBalanceToken2);
     }
 }
