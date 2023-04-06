@@ -1,0 +1,3 @@
+corpusDir: corpus
+testLimit: 100000
+balanceContract: 1000000000000000000
