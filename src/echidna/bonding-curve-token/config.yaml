@@ -1,0 +1,4 @@
+testMode: assertion
+corpusDir: corpus
+balanceContract: 1000000000000000000000
+cryticArgs: ['--solc-remaps', 'erc1363-payable-token/=lib/erc1363-payable-token/ @openzeppelin=lib/openzeppelin-contracts/']
